@@ -1,28 +1,39 @@
-body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .sidenav {
-    height: 100%;
-    width: 250;
-    position: fixed;
+    height: 100vh;
     z-index: 1;
-    top: 0;
-    left: 0;
     background-color: rgb(59, 58, 59);
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+    /* overflow-x: visible; */
+    /* transition: 0.1s; */
+    /* padding: 35px 4px 35px 4px; */
 }
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
+.titleSidenav{
+    /* text-decoration: none; */
+    color: #ffffffff;
+    font-size: 28px;
+    display: block;
+    /* transition: 0.3s; */
+    text-align-last: left;
+}
+.subtitleSidenav{
+    /* padding: 4px 2px 4px 2px; */
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     color: #ffffffff;
     display: block;
     transition: 0.3s;
-    line-height: 200%
+    line-height: 10%;
+    text-align-last: center;
+}
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    /* text-decoration: none; */
+    font-size: 25px;
+    color: #ffffffff;
+    display: block;
+    /* transition: 0.3s; */
+    line-height: 150%
 }
 
 .sidenav a:hover {
@@ -32,6 +43,6 @@ body {
 
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  /* .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;} */
 }
