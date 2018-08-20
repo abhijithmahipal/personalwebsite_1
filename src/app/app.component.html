@@ -1,14 +1,18 @@
-<div>
-  <div>
-    <p class="titleSidenav"> Abhijith Mahipal M</p>
-    <p class="subtitleSidenav">Software Engineer Associate</p>
-    <a [routerLink]="['/home']">&#xf015; Home</a>
-    <a [routerLink]="['/skill']">&#xf085; Skills</a>
-    <a [routerLink]="['/portfolio']">&#xf07c; Portfolio</a>
-    <a [routerLink]="['/writing']">&#xf040; Writing</a>
-    <a [routerLink]="['/aboutme']">&#xf007; About Me</a>
-  </div>
-  <div>
-    <router-outlet></router-outlet>
-  </div>
+<div class="pageMain">
+    <div class="pageSidebar">
+      <div class="topMenu">
+        <div class="profileName"> Abhijith Mahipal M</div>
+        <div class="profileDesig">Software Engineer Associate</div>
+      </div>
+      <div class="bottomMenu">
+        <a [routerLink]="['/home']" routerLinkActive="activeRoute" class="linkButton">&#xf015; Home</a>
+        <a [routerLink]="['/skill']" routerLinkActive="activeRoute" class="linkButton">&#xf085; Skills</a>
+        <a [routerLink]="['/portfolio']" routerLinkActive="activeRoute" class="linkButton">&#xf07c; Portfolio</a>
+        <a [routerLink]="['/writing']" routerLinkActive="activeRoute" class="linkButton">&#xf040; Writing</a>
+        <a [routerLink]="['/aboutme']" routerLinkActive="activeRoute" class="linkButton">&#xf007; About Me</a>
+      </div>
+    </div>
+    <div class="pageContent">
+      <router-outlet></router-outlet>
+    </div>
 </div>
