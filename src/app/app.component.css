@@ -1,72 +1,63 @@
 .pageMain {
-  margin: auto;
-  background-color: #f2f2f2;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI',FontAwesome;
 }
 .pageSidebar {
   background: rgb(51, 55, 70);
-  position: fixed;
-  height: 100vh;
-  width: 220px;
-  z-index: 1100;
+  min-height: 100vh;
+  /*z-index: 1100;*/
   display: flex;
   flex-direction: column;
+  color: rgb(242, 242, 242);
 }
 .pageContent {
-  background-color: rgb(242, 242, 242);
-  height: 100vh;
-  position: fixed;
-  left: 220px;
-  width: 100%;
+  min-height: 100vh;
+  padding:0px;
 }
 .topMenu {
-  padding: 20px 0px 0px 0px;
+  padding: 8% 8% 4% 8%;
 }
 .profileName {
-  width: 100%;
-  color: rgb(242, 242, 242);
-  font-size: 22px;
-  line-height: 26px;
-  margin-bottom: 5px;
-  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+  justify-content:flex-start;
 }
 .profileDesig {
-  width: 100%;
-  color: rgb(209, 209, 209);
-  font-size: 12px;
-  font-weight: 400;
-  padding: 0px 10px 0px 3px;
-  letter-spacing: 0.03em;
-  text-align:center;
+  font-size: 18px;
+  line-height: 19px;
+  justify-content: flex-start;
+  padding-top:1vh
 }
 .bottomMenu {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-top: 50px;
+  padding-top: 6vh;
 }
 .linkButton {
-  font-family: FontAwesome,'Segoe UI';
   padding: 12px 20px 12px 30px;
-  margin: 0px;
-  color: rgba(255, 255, 255, 0.8);
-  width: 100%;
-  font-weight: 100;
-  text-align: left;
-}
-.activeRoute {
-  padding: 12px 20px 12px 30px;
-  margin: 0px;
-  color: white;
-  width: 105%;
-  font-weight: 400;
-  text-align: left;
-  background-color: rgb(67, 178, 170);
-  border-bottom-right-radius: 50px;
-  border-top-right-radius: 50px;
+  color:rgb(202,202,202);
 }
 .linkButton:hover {
   text-decoration: none;
   color:white;
-  transition-delay:0.01ms;
 }
+.iconC{
+  
+}
+.iconD{
+  padding-left:8px
+}
+.activeRoute {
+  /*margin: 0px;*/
+  color: white;
+  width: 115%;
+  z-index:1100;
+  font-weight: 400;
+  background-color: rgb(230, 230, 230);
+  color:black;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+/*@media (max-width: 768px) {
+  .iconD, .profileDesig {
+    display: none;
+  }
+}*/
