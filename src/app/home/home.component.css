@@ -6,6 +6,7 @@
 }
 .pageContent{
   height: 100%;
+  background-color: rgb(67, 178, 170);
   position: relative;
   width: 100%;
   display: flex;
@@ -19,7 +20,7 @@
   box-shadow: rgb(136, 136, 136) 1px 7px 13px -11px;
 }
 .contentBox {
-  max-width: 40%;
+  max-width: 60%;
   padding: 0px 50px;
   margin-bottom: 100px;
 }

@@ -7,10 +7,13 @@
   display: flex;
   flex-direction: column;
   color: rgb(230, 230, 230);
+  min-width: 19%;
 }
 .pageContent {
+  padding: 0px;
   min-height: 100vh;
-  background: rgb(67, 178, 170);
+  max-width: 81%;
+  background: rgb(230, 230, 230);
 }
 .topMenu {
   padding: 8% 8% 4% 8%;

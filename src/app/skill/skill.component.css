@@ -1,3 +1,27 @@
 .skillheader{
-  background-color:lightgrey
+  font-size: 22px;
+  font-weight: 700;
+  color: #727cb6;
+}
+.contactSection {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contactBtn {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 5px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  color: rgb(51, 55, 70);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  margin: 10px;
+  text-decoration:none;
+}
+.iconSmall {
+  margin-right: 10px;
+  font-size: 20px;
 }

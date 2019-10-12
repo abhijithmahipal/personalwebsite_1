@@ -1,47 +1,15 @@
-<div class="row">
-  <div class="col-sm-10">
-    <div class="row skillheader">
-      __Programming Languages
-    </div>
-    <div class="row" *ngFor="let i of programmingLanguages">
-      <div class="col-sm-4">
-        {{i.skillName}}
+<div class="container">
+  <div class="row">
+    <div class="col-sm-10">
+      <div class="row skillheader mt-5">
+        Programming Languages
       </div>
-      <div class="col-sm-4">
-        {{i.rating}}
-      </div>
-    </div>
-    <div class="row skillheader">
-      __Front End
-    </div>
-    <div class="row" *ngFor="let i of frontEndSkills">
-      <div class="col-sm-4">
-        {{i.skillName}}
-      </div>
-      <div class="col-sm-4">
-        {{i.rating}}
-      </div>
-    </div>
-    <div class="row skillheader">
-      Back End
-    </div>
-    <div class="row" *ngFor="let i of backEndSkills">
-      <div class="col-sm-4">
-        {{i.skillName}}
-      </div>
-      <div class="col-sm-4">
-        {{i.rating}}
-      </div>
-    </div>
-    <div class="row skillheader">
-      __Misfits
-    </div>
-    <div class="row" *ngFor="let i of misfits">
-      <div class="col-sm-4">
-        {{i.skillName}}
-      </div>
-      <div class="col-sm-4">
-        {{i.rating}}
+      <div class="row">
+        <div class="contactSection" *ngFor="let i of programmingLanguages">
+          <a href="mailto:abhijithmahipal@gmail.com?Subject=Hi%20Abhijith" target="_blank" class="contactBtn">
+            <i class="fa  fa-envelope iconSmall" aria-hidden="true"></i> {{i.skillName}}
+          </a>
+        </div>
       </div>
     </div>
   </div>
