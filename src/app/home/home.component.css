@@ -1,3 +1,9 @@
+.profile-pic{
+  vertical-align: middle;
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 50%;
+}
 /*.pageContent{
   height: 100%;
   position: relative;
