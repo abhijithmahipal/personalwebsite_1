@@ -10,7 +10,7 @@
 }
 .pageContent {
   min-height: 100vh;
-  background: rgb(16, 177, 204);
+  background: rgb(8, 158, 151);
 }
 .topMenu {
   padding: 8% 8% 4% 8%;
@@ -34,7 +34,7 @@
 }
 .linkButton:hover {
   text-decoration: none;
-  color:white;
+  color:rgb(8, 158, 151);
 }
 .iconD{
   padding-left:8px
