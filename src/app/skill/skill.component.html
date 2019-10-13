@@ -6,8 +6,18 @@
       </div>
       <div class="row">
         <div class="contactSection" *ngFor="let i of programmingLanguages">
-          <a href="mailto:abhijithmahipal@gmail.com?Subject=Hi%20Abhijith" target="_blank" class="contactBtn">
-            <i class="fa  fa-envelope iconSmall" aria-hidden="true"></i> {{i.skillName}}
+          <a class="contactBtn">
+            {{i.skillName}}
+          </a>
+        </div>
+      </div>
+      <div class="row skillheader mt-5">
+        Web
+      </div>
+      <div class="row">
+        <div class="contactSection" *ngFor="let i of web">
+          <a class="contactBtn">
+             {{i.skillName}}
           </a>
         </div>
       </div>

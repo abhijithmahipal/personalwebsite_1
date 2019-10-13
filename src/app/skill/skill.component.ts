@@ -7,84 +7,89 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-  frontEndSkills: any = [
+  web: any = [
     {
-      "skillName": "HTML5",
-      "rating": "3"
+      'skillName': 'HTML5',
+      'rating': '3',
+      'icon-class': ''
     },
     {
-      "skillName": "CSS3",
-      "rating": "1"
+      'skillName': 'SCSS',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Angular",
-      "rating": "1"
+      'skillName': 'Angular',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Javascript",
-      "rating": "1"
+      'skillName': 'Bootstrap',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Bootstrap",
-      "rating": "1"
+      'skillName': 'Responsive Design',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Responsive Design",
-      "rating": "1"
+      'skillName': 'ASP.Net Core',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "UI/UX Design",
-      "rating": "1"
-    }
-  ];
-  backEndSkills: any = [
-    {
-      "skillName": "ASP MVC",
-      "rating": "1"
+      'skillName': 'Web API',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "WebAPI",
-      "rating": "1"
+      'skillName': 'Entity Framework',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Entity Framework",
-      "rating": "1"
-    },
-    {
-      "skillName": "SQL Server",
-      "rating": "1"
+      'skillName': 'SQL Server',
+      'rating': '1',
+      'icon-class': ''
     }
   ];
   programmingLanguages: any = [
     {
-      "skillName": "C",
-      "rating": "1"
+      'skillName': 'C',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "C++",
-      "rating": "1"
+      'skillName': 'C++',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "C#",
-      "rating": "1"
+      'skillName': 'C#',
+      'rating': '1',
+      'icon-class': ''
     },
     {
-      "skillName": "Python",
-      "rating": "1"
+      'skillName': 'Javascript',
+      'rating': '1',
+      'icon-class': ''
+    },
+  ];
+  sourceControl: any = [
+    {
+      'skillName': 'Git',
+      'rating': '1',
+      'icon-class': ''
+    },
+    {
+      'skillName': 'Azure Devops',
+      'rating': '1',
+      'icon-class': ''
     }
   ];
-  misfits: any = [
-    {
-      "skillName": "Git",
-      "rating": "1"
-    },
-    {
-      "skillName": "Technical Quiz",
-      "rating": "2"
-    }
-  ];
+  constructor() { }
+
+  ngOnInit() {
+  }
 }
